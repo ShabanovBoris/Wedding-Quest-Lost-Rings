@@ -15,6 +15,7 @@ test-results/
 .DS_Store
 
 # Private owner input and approved private staging (never commit)
+asset-delivery/
 private-input/
 private-runtime/
 public/private/

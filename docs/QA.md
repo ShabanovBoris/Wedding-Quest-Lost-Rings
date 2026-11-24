@@ -26,6 +26,8 @@ Use GAME_SPEC.md section 11 (QA01–QA19) as the authoritative test matrix. Reco
 | QA18 | NOT RUN | — |
 | QA19 | NOT RUN | — |
 
+Asset intake: check supplied files and manifest per ASSET_HANDOFF.md, log missing/invalid IDs and browser animation/audio tests. Dev may use geometry and silence; production rejects placeholders/missing P0. Creative fixes are external AI/owner work.
+
 Release gates: full normal-input playthrough, no known crash/softlock/progress loss/unauthorized exposure, passing required automated checks, no placeholder release content, approved music and private access, and actual target-device testing or explicitly documented unverified limitations.
 
 Defect template: ID, severity, trigger, repro steps, expected, actual, affected build, evidence, fix, retest.
