@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Private owner input and approved private staging (never commit)
+private-input/
+private-runtime/
+public/private/
+src/content/personal.local.*
+docs/OWNER_PRIVATE.md
