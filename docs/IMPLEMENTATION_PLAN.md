@@ -6,7 +6,7 @@ Detailed mandatory acceptance criteria: GAME_SPEC.md sections 10–11. All stage
 | --- | --- | --- | --- |
 | 0 | Bootstrap, version checks, dev/build, tooling inventory | — | TODO |
 | 1 | Graybox: both heroes, movement, jump, collision, camera, touch | 0 | TODO |
-| 2 | Vertical slice: bride, combat, cat, pickups, checkpoint, HUD | 1 | TODO |
+| 2 | Vertical slice: bride, combat, cat, pickups, checkpoint, HUD, `qa:capture` harness (docs/QA_HARNESS.md) | 1 | TODO |
 | 3 | Integrate and validate owner-supplied slice assets, animation and audio | 2 + external A1 package | TODO |
 | 4 | Full chapter 1, clue and transition | 2 for gameplay; approved assets for DONE | TODO |
 | 5 | Chapter 2, groom, second cat, bulldog | 4 route | TODO |
@@ -18,7 +18,7 @@ Detailed mandatory acceptance criteria: GAME_SPEC.md sections 10–11. All stage
 ## Execution checklist
 - [ ] Stage 0: inspect repo and agent capabilities, select/pin versions, initialize package and lockfile, verify dev and build, record commands.
 - [ ] Stage 1: verify both heroes, keyboard/touch, coyote time, jump buffer, collision and focus recovery in browser.
-- [ ] Stage 2: ordinary-input 2–3 minute playable slice, pet, pickup, combat, death/reload/exit; E2E evidence.
+- [ ] Stage 2: ordinary-input 2–3 minute playable slice, pet, pickup, combat, death/reload/exit; E2E evidence; `npm run qa:capture` delivers frames, video and metrics per docs/QA_HARNESS.md.
 - [ ] Stage 3: accept owner-supplied A1/full pack; validate manifest, atlas/pivots/alpha, browser animation and sound. No creative generation or sourcing.
 - [ ] Stages 4–6: full playable route, no softlocks, optional secrets, checkpoints, two rings granted once.
 - [ ] Stage 7: licensed/approved content; no placeholder personal data in release.
