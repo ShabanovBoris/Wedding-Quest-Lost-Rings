@@ -22,6 +22,8 @@
 - [Реестр ассетов](docs/ASSET_MANIFEST.md)
 - [История решений](docs/DECISIONS.md)
 - [QA](docs/QA.md)
+- [Контракт автоматического прогона уровня](docs/QA_HARNESS.md)
+- [Шаблон дизайн-дока уровня](docs/levels/TEMPLATE.md)
 
 Целевой стек: Phaser, TypeScript strict, Vite, Arcade Physics, Vitest, Playwright. Версии агент проверяет и фиксирует при инициализации. Команды запуска появятся после создания проекта.
 
